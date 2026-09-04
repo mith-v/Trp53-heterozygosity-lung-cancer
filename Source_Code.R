@@ -154,7 +154,7 @@ surv_fit
 ##### SUPPLEMENTAL FIGURE 2 #####
 #### scRNA-seq preprocessing and lineage identification
 
-### Processed scRNA-seq feature-barcode matrices are available from the published NCBI GEO accession GSE343294
+### Processed scRNA-seq feature-barcode matrices are available from the published NCBI GEO accession GSEXXXXXX
 ## Representative preprocessing is shown for sample K_1 
 # The same workflow was applied independently to all six biological samples --> K_1, K_2, K_3, KP_1, KP_2, and KP_3 (KP here refers to KP+/-)
 
