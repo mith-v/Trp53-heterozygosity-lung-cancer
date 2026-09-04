@@ -167,13 +167,13 @@ library(SCpubr)
 library(flexdashboard)
 
 ## Representative preprocessing: K_1
-# Download the following processed files for sample K_1 from GSE343294:
+# Download the following processed files for sample K_1 from GSEXXXXXX:
   # K_1_barcodes.tsv.gz
   # K_1_features.tsv.gz
   # K_1_matrix.mtx.gz
 
 # Place the files in:
-  # data/GSE343294/K_1/
+  # data/GSEXXXXXX/K_1/
 
 # The files should be renamed to the standard 10x Genomics filenames:
   # barcodes.tsv.gz
@@ -181,7 +181,7 @@ library(flexdashboard)
   # matrix.mtx.gz
 
 # Load the Cell Ranger filtered feature-barcode matrix
-data <- Read10X(data.dir = "data/GSE343294/K_1/")
+data <- Read10X(data.dir = "data/GSEXXXXXX/K_1/")
 
 # Create unfiltered object for calculation of the retained cell fraction
 K_1_Raw <- CreateSeuratObject(counts = data, min.cells = 0, min.features = 0)
