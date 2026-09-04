@@ -47,8 +47,6 @@ Additional package dependencies are loaded within the corresponding sections of 
 
 The analyses use study-generated data and publicly available datasets described in the manuscript Methods and Data Availability statement.
 
-Accession information for study-generated sequencing data is intentionally not reproduced in this confidential peer-review repository.
-
 Public resources include TCGA-LUAD data from the NCI Genomic Data Commons, Tabula Muris, published mouse KP lung cancer and human NSCLC single-cell RNA-seq datasets, LungMAP, MSigDB, and the CollecTRI regulatory network.
 
 ## Running the analyses
