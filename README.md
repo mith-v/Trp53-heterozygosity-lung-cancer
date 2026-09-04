@@ -1,10 +1,14 @@
 # Trp53-heterozygosity-lung-cancer
 
-This repository contains the custom R and Python code used for computational analyses and figure generation in the accompanying manuscript.
+This repository contains the R and Python code used for computational analyses and figure generation in the accompanying manuscript.
 
-Code is organized according to the corresponding main and supplementary figure panels. Where the same workflow was applied independently to multiple genotypes or datasets, a representative complete workflow is provided.
+## Scope of submitted code
+
+No standalone software package or custom mathematical algorithm was developed for this study. The submitted R and Python code comprises analysis scripts that implement and adapt established computational methods and publicly available software packages for the datasets analyzed in the manuscript.
 
 ## Repository contents
+
+Code is organized according to the corresponding main and supplementary figure panels. Where the same workflow was applied independently to multiple genotypes or datasets, a representative complete workflow is provided.
 
 ### `Source_Code.R`
 
